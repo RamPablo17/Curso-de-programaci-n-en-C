@@ -1,0 +1,202 @@
+Este programa es libre de modificación  creado por  Alonso M. y distribuido por CURSOS DOCERE y Pablo Ramirez Cabrera Profesor de materia.
+
+#include<stdio.h>
+
+//Este es un comentario
+
+/*Este es un comentario de doble linea */
+
+/*Comentario 
+
+dos linesas*/
+
+//Macros
+
+#define p printf
+
+#define numero 30
+
+//Variables globales
+
+int numero1=10;
+
+const int num=20;//Variable  constante como variable global
+
+
+
+
+
+int main(){	
+
+	//Variables locales 
+
+	1.//Estructura general de un programa en C
+
+#include <stdio.h>
+
+//Comentarios de una linea
+
+cometario
+
+/*Cometario
+
+de dos lineas
+
+*/
+
+int main(){
+
+	
+
+	return 0;//Uso del punto y coma
+
+}
+
+2./*Salida de datos
+
+	macro palabra reservada
+
+	printf(estructura);	
+
+	Marca de formato
+
+	¿Formato de impresión?\n-\t
+
+	puts(estructura);	
+
+*/
+
+#inlcude<stdio.h>
+
+int main(){
+
+	printf("Hola mundo");
+
+	return 0;
+
+}
+
+
+
+#inlcude<stdio.h>
+
+#define p printf//Macro
+
+int main(){
+
+	p("Hola mundo 2.0");
+
+	return 0;
+
+}
+
+3.//Tipos de datos
+
+
+
+/*
+
+Enteros
+
+	int    
+
+	Short int 
+
+	unsigned int
+
+	long int
+
+	unsigned long
+
+Reales(Numeros con decimales)
+
+	float
+
+	double
+
+	long double
+
+Caracteres
+
+	char
+
+*/
+
+//Formatos de marca-Imagen
+
+#include <stdio.h>
+
+int main(){
+
+	printf("Hola mundo");
+
+	return 0;
+
+}
+
+4./*Declaración de variables
+
+	¿Que es una variable?
+
+	Tipos de variables
+
+	Cómo declarar una variable
+
+	macros
+
+*/ 
+
+
+
+//Salida de variables
+
+#inlcude<stdio.h>
+
+#define PI 3.1416//Macro
+
+int main(){
+
+	//No es igual a=/A
+
+	int a=1098;
+
+	float b=-598.58;
+
+	char c='a';
+
+//	Alt+92  \
+
+//  Alt+123 {
+
+//  ALt+125 }
+
+	printf("Pi= %f",PI);
+
+	printf("\nDato entero %i",a);
+
+	printf("\nDato flotante %i,"b);
+
+	printf("\nDato flotane %f",b);//%.2f
+
+	printf("\nDato caracter %i",c);//Codigo ASCII
+
+	printf("\nDato caracter %c",c);
+
+	return 0;
+
+}
+
+int main(){
+
+	a=60;
+
+	puts("Hola mundo 3.0");
+
+//	Contra Ejemplo de que no sirve para salida de formato
+
+	puts("Contra-ejemplo %i"a);
+
+	return 0;
+
+
+}
