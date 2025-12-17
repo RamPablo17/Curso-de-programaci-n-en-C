@@ -1,0 +1,146 @@
+Este programa es libre de modificación  creado por  Pablo Ramirez Cabrera. y distribuido por CURSOS DOCERE.
+Si quieres aprender más revisa nuestros cursos en https://www.cursosdocere.com/cursos
+
+//Estructuras de selección
+
+/* 
+
+	if(condición){
+
+		instruciones
+
+	}
+
+*/
+
+#include<stdio.h>
+
+/*
+
+int main(){
+
+	int respuesta=0;
+
+	printf("Digite el numero 1 si quiere que se cumpla la condicion o 0 si no quiere que se cumpla: ");
+
+	scanf("%i",&respuesta);
+
+	if(respuesta==1){
+
+		printf("La condicion se cumplio");
+
+	}
+
+	return 0;
+
+}
+
+*/
+
+/*Operadores relacionales 
+
+== igual
+
+!= diferente 
+
+< menor que
+
+> mayor que 
+
+<= menos o igual que 
+
+>= mayor o igual que
+
+*/
+
+
+
+/*int main(){
+
+	int n1,n2;
+
+	printf("Digite el valor de numero 1  ");
+
+	scanf("%i",&n1);
+
+	printf("Digite el valor del numero 2  ");
+
+	scanf("%i",&n2);
+
+	if(n1<n2){
+
+		printf("\n\nEl numero 1 es %i y es menor que numero 2 que es %i\n",n1,n2);
+
+	}
+
+	if(n2<n1){
+
+		printf("\n\nEl numero 2 es %i y es menor que numero 1 que es %i\n",n2,n1);
+
+	}
+
+	if(n1!= n2){
+
+		printf("\n\nLos numeros son diferentes\n");
+
+	}
+
+	if(n1==n2){
+
+		printf("\n\nLos numeros son iguales\n");
+
+	}
+
+	if(n1<=n2){
+
+		printf("\nEl numero n1 es menor o igual a n2 \n");
+
+	}
+
+	if(n1>=n2){
+
+		printf("\nNumero n1 es mayor que o igual que numero n2\n");
+
+	}
+
+	return 0;
+
+}*/
+
+/*Operadores condicionales 
+
+! No
+
+&& Y 
+
+|| O
+
+*/
+
+/*
+
+int main(){
+
+	int n1,n2,n3;
+
+	/*char palabra[20];
+
+	printf("Digite la palabra \n");
+
+	scanf("%s",&palabra);
+
+	//gets(palabra);
+
+	//printf("%s",palabra);
+
+	if(n1< 10  != n2 <10){
+
+		printf("Se cumplio la condicion y n1 es menor a 10  o n2 es menor a 10");
+
+	}
+
+	
+
+	return 0;
+
+}*/
