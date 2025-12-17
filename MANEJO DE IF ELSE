@@ -1,0 +1,79 @@
+Este programa es libre de modificación  creado por  Pablo Ramirez Cabrera. y distribuido por CURSOS DOCERE.
+
+Si quieres aprender más revisa nuestros cursos en https://www.cursosdocere.com/cursos
+
+// Guardar un dato y apartir de este decidir si el 100 se divide entre 5 o entre 2.
+
+#include<stdio.h>
+
+
+
+int main(){
+
+	
+
+	int numero1, resultado;
+
+	
+
+	printf("Por favor, digita el numero con el cual le daremos la orden");
+
+	scanf("%i",&numero1);// muestra y guarda valores
+
+	
+
+/*  logica del programa 
+
+	 if ( condicion ){     
+
+	
+
+		ordenes 
+
+	
+
+	 }
+
+	 else{
+
+	 
+
+	  ordenes en caso de no entrar a la condicion principal
+
+	 }
+
+	 
+
+	 */
+
+	
+
+	if(numero1 <= 5){
+
+		
+
+	resultado= 100 / 5;
+
+	printf("El resultado es %i", resultado);
+
+	
+
+	}
+
+	else {
+
+		
+
+		resultado= 100 / 2;
+
+		printf(" El resultado es %i",resultado);
+
+	}
+
+	
+
+	
+
+}
+
+
