@@ -1,0 +1,82 @@
+Este programa es libre de modificación  creado por  Pablo Ramirez Cabrera. y distribuido por CURSOS DOCERE.
+Si quieres aprender más revisa nuestros cursos en https://www.cursosdocere.com/cursos
+
+////Libreria principal////
+
+#include<stdio.h>
+
+int main(){
+
+	int n,num, par,i;//Variable entera
+
+	int arreglo[50];//variable arreglo
+
+    float promedio,sumapar;//variables flotantes
+
+    sumapar=0;
+
+    printf("cuantos numeros? ");
+
+    scanf("%i",&n);
+
+/////Ciclo que pide los numeros/////
+
+    i=0;//Inicializando i=0,debe ir afuera del do, por que si lo ponemos dentro, siempre se volvera a inicializar a 0
+
+    	//y nunca saldra del ciclo do while porque la variable i siempre sera 0 por lo tanto menor a n;
+
+	do {
+
+    	printf("dame valores ");
+
+    	scanf("%i",&arreglo[i]);//arreglo[0]
+
+		i++;//i=i+1; Esta suma es para que podamos llevar al momento donde i es mayor a n
+
+	}while(i<n);
+
+
+
+	printf("\nLos numeros pares digitados son: \n");
+
+	
+
+/////Ciclo que imprime los numeros pares, suma los numeros pares y al finalizar/////
+
+
+
+	i=0;//Inicializando i=0,debe ir afuera del do, por que si lo ponemos dentro, siempre se volvera a inicializar a 0
+
+    	//y nunca saldra del ciclo do while porque la variable i siempre sera 0 por lo tanto menor a n;
+
+	do{
+
+    	if((arreglo[i]%2)==0){
+
+		printf("- %i \n",arreglo[i]);
+
+		sumapar=sumapar+arreglo[i];
+
+		par++;//par=par+1;
+
+	}
+
+	i++;//i=i+1; Esta suma es para que podamos llevar al momento donde i es mayor a n u poder salir de ciclo
+
+	}while(i<n);
+
+
+
+	promedio=sumapar/par;
+
+	
+
+	printf("el total de numeros pares es %i\n",par);
+
+	printf("la suma de numeros pares %.2f\n",sumapar);
+
+	printf("el promedio de pares es %.2\n",promedio);
+
+	return 0;
+
+}
