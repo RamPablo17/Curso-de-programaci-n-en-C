@@ -1,0 +1,42 @@
+Este programa es libre de modificación  creado por  Pablo Ramirez Cabrera. y distribuido por CURSOS DOCERE.
+Si quieres aprender más revisa nuestros cursos en https://www.cursosdocere.com/cursos
+
+// Mostremos de 1 al 10
+
+#include<stdio.h>
+
+
+
+int main(){
+
+	 /*while ( condición ) 
+
+	{
+
+	
+
+	ordenes
+
+	
+
+	}*/
+
+	int i; // Contador = banderitas 
+
+	i= 1; // inicializando
+
+	while(i<=10){ // condicion hasta que 
+
+		
+
+		printf("%i",i);
+
+		i++;
+
+		
+
+	}
+
+	return 0;
+
+}
