@@ -1,0 +1,218 @@
+ /* Este programa es libre de modificación  creado por  Pablo Ramirez Cabrera. y distribuido por CURSOS DOCERE.
+Si quieres aprender más revisa nuestros cursos en https://www.cursosdocere.com/cursos
+//ENTRADA Y SALIDA DE DATOS 
+
+
+#include<stdio.h>
+
+
+
+int main(){
+
+	char x [20];
+
+	printf("Digita tu nombre completo scant\t");
+
+	scanf("%s",x);
+
+
+
+	printf("Digita tu nombre completo scant");
+
+
+
+}
+
+
+
+#include<stdio.h>
+
+
+
+int main(){
+
+    int a;
+
+    float b;
+
+    
+
+	char x [20];
+
+
+
+	printf("Digita tu numero entero gets\t");
+
+	scanf("%i",&a);
+
+	printf("Digita tu numero flotante gets\t");
+
+	scanf("%i",&b);
+
+	printf("Digita tu nombre completo gets\t");
+
+	gets (x);
+
+	
+
+		printf("Su nombre es %s", x);
+
+
+
+}
+
+//OPERADORES DE ASIGNACIÓN
+
+
+
+//En síntesis, una expresión es una secuencia de operaciones y operandos que especifica un cálculo. 
+
+#include<stdio.h>
+
+
+
+int main(){
+
+ 
+
+ int a,b,c,d ;
+
+ a=10;
+
+ b=10;
+
+ c=10;
+
+ d=10;
+
+ // Podemos darle el valor a varias variables al mismo tiempo int a,b,c = 10;
+
+ a += 10; //Abreviatura de a = a + 10
+
+ b -=5; //Abreviatura de a = a - 10
+
+ c *=5; //Abreviatura de a = a - 10
+
+ d /=2;
+
+ printf("El valor de A sumado es : %i ", a);
+
+ printf("El valor de A es restado : %i ", b);
+
+ printf("El valor de A es multiplicado : %i ", c);
+
+ printf("El valor de A es dividido : %i ", d);
+
+
+
+ 
+
+}
+
+------------------------------------------------------------------------------------------------------------------ejercicio calculadora 
+
+//OPERADORES DE Incremento
+
+//Los operadores de incrementacion y decrementacion nos permiten realizar operaciones aritmeticas sencillas
+
+#include<stdio.h>
+
+
+
+int main(){
+
+	int a ;
+
+ 	a=10;
+
+	a++;
+
+	printf("El valor de A sumado es : %i ", a);
+
+
+
+}
+
+
+
+
+
+//Los operadores de incrementacion y decrementacion nos permiten realizar operaciones aritmeticas sencillas
+
+#include<stdio.h>
+
+#include<math.h>
+
+
+
+int main(){
+
+	
+
+	//Potencias 
+
+	float potencia,raiz;
+
+	int n=4;
+
+	potencia = 4 ;
+
+	potencia = pow (potencia,2);
+
+	printf("La potencia es %f",potencia);
+
+	
+
+	//Raiz Se puede sacar con potencias es como 1/2 la raiz cuadrada
+
+	// Dentro de pow no se puede poner fracciones
+
+	// la tercera raiz de 5 al cuadrado queda como 5 elevada al exponente 2/3
+
+	raiz = sqrt(n);
+
+	printf("Laraiz es %f",raiz);
+
+
+
+}
+
+
+
+*/
+
+
+
+#include<stdio.h>
+
+#include<math.h>
+
+#include<conio.h>
+
+
+
+int main(){
+
+	
+
+	//Potencias 
+
+	float raiz;
+
+	raiz = 4;
+
+	
+
+	raiz = pow (raiz,0.5);
+
+	
+
+	printf("%.2f",raiz);
+
+	getch(); 
+
+	return 0;
+
+	
+
+}//
